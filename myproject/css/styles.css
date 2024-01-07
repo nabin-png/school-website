@@ -1,0 +1,731 @@
+
+*{
+	 box-sizing:border-box;
+	 padding:0;
+	 margin:0;
+	 user-select: none; /* text not selected */
+
+}
+
+body{
+	 overflow-x:hidden;
+}
+
+
+li a{
+	 text-decoration:none;
+	 display:block;
+	 color:white;
+	 padding:20px 50px;	
+}
+
+
+li{
+	 float:left;
+}
+
+
+ul{
+	 list-style-type:none;	
+	 width:80%;
+	 font-family: 'Roboto', sans-serif;
+	 position:relative;
+     background-color:purple;
+}
+
+
+li a:hover{
+	 background-color:#663399;
+}
+
+
+.dropdown{
+	 
+	 display:inline-block;
+}
+
+
+.dropdown-content{
+	 display:none;
+	 position:absolute;
+	 top:58px;
+	 background-color:purple;
+	 width:250px;
+	 box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	 z-index: 1;	
+     	 
+}
+
+
+.dropdown:hover .dropdown-content{
+	 display:block;
+}
+
+
+.dropdown-content a {
+     color: white;
+     padding: 12px 16px;
+     text-decoration: none;
+     display: block;	 
+}
+
+
+.dropdown-content a:hover {
+	  background-color: #663399;
+	 
+	  
+}
+
+.nav-bar{
+	  display:flex;
+	  flex-direction:rows;
+}
+
+.app-form{
+	  background-color:purple;
+	  display:flex;
+	  align-items:center;
+	  justify-content:center;
+      width:20%;
+	
+}
+.app-form>button{
+	  color:black;
+	  padding:10px;
+	  border-radius:20px;
+}
+
+.app-form>button:hover{
+	  background-color:purple;
+	  color:white;
+	  cursor:pointer;
+}
+	
+
+
+/* for header-div  */
+
+
+	  
+
+.image-back{
+	  background-image:url("https://th.bing.com/th/id/R.cf1f7ab59a662c3c63ce4dc05afde4a8?rik=gqPAoOqbrcqr4Q&pid=ImgRaw&r=0");
+	  background-position: center;
+	  background-repeat: no-repeat;
+	  background-size: cover;
+	  height:80vh;
+
+}
+
+
+.image-ontext{
+	   position:absolute;
+	   top:40vh;
+	   left:50vw;
+	   color:white;
+	   display:flex;
+	   flex-direction:column;
+	   gap:10px;
+	   font-family: 'Cinzel', serif;
+	   
+}
+
+#mybutton1{
+	   padding:15px;
+	   background-color:brown;
+	   color:white;
+	   border-radius:40px;
+	   width:50%;
+	   border:none;
+}
+
+#mybutton1:hover{
+	  background-color:purple;
+	  cursor:pointer;
+}
+	
+
+#bg-image1{
+	  background-image:url("https://i.pinimg.com/originals/db/ec/e7/dbece78b56e610d8b96759034051bb64.jpg");   
+	  background-position: center;
+	  background-repeat: no-repeat;
+	  background-size: cover;
+	  width:100%;
+	  height:100%;
+} 
+
+#bg-image2 {
+	  background-image:url("https://pbs.twimg.com/media/Eno4DbNVQAM436r.jpg");
+	  background-position: center;
+	  background-repeat: no-repeat;
+	  background-size: cover;
+	  width:100%;
+	  height:100%;
+}
+
+#bg-image3 {
+	  background-image:url("https://www.bhavkunjschool.ac.in/wp-content/uploads/2019/05/Canteen1-1024x682.jpg");
+	  background-position: center;
+	  background-repeat: no-repeat;
+	  background-size: cover;
+	  width:100%;
+	  height:100%;
+}
+
+ #bg-image4 {
+	   background-image:url("https://richmonddglobalschool.edu.in/images/sports/14.jpg");
+	   background-position: center;
+	   background-repeat: no-repeat;
+	   background-size: cover;
+	   width:100%;
+	   height:100%;
+}
+
+ #bg-image5 {
+	  background-image:url("https://daily.jstor.org/wp-content/uploads/2015/07/school_1050x700.jpg");
+	  background-position: center;
+	  background-repeat: no-repeat;
+	  background-size: cover;
+	  width:100%;
+	  height:100%;
+}
+ 
+ #bg-image6 {
+	   background-image:url("https://i.ytimg.com/vi/DfcOd8T956A/maxresdefault.jpg");
+	   background-position: center;
+	   background-repeat: no-repeat;
+	   background-size: cover;
+	   width:100%;
+	   height:100%;
+}
+ 
+ #bg-image7 {
+	  background-image:url("https://th.bing.com/th/id/OIP.UqWwktHONxb92LlcTU7dDQHaEL?rs=1&pid=ImgDetMain");
+	  background-position: center;
+	  background-repeat: no-repeat;
+	  background-size: cover;
+	  width:100%;
+	  height:100%;
+}
+
+
+	
+
+.image-footer{
+	  background-image:url("https://th.bing.com/th/id/R.859c585d6eff9a7028e802dcef9315ef?rik=xOPTJPutFgxr%2fA&riu=http%3a%2f%2fwww.photos-public-domain.com%2fwp-content%2fuploads%2f2011%2f04%2fdeep-purple-canvas-fabric-texture.jpg&ehk=phkFhwZT4MlxHiluplAQ%2fLqoUDmy%2bDSg%2f7VT04R%2fo4s%3d&risl=&pid=ImgRaw&r=0");
+	  background-repeat: no-repeat;
+	  background-size: cover;
+	  height:100vh;
+	  overflow:hidden;
+	  z-index:-1;
+	  font-family: 'Roboto', sans-serif;
+}
+
+}
+
+.box-1, .box-2, .box-3, .box-4{
+	    display:flex;
+	    flex-direction:column;
+	    gap:10px;
+	
+}
+
+.footer-flex{
+	    display:flex;
+	    flex-direction:row;
+	    justify-content:space-around;
+	    align-items:top;
+	    color:white;
+	    margin:50px;
+	    gap:20px;
+	    position:relative;
+	
+	}
+	
+	
+
+span{
+	  display:flex;
+	  flex-direction:column;
+	  gap:20px;
+	
+}
+
+.footer-flex > div > p{
+      
+	  padding:5px;
+	  margin:10px;
+	  cursor:pointer;
+}
+
+.footer-flex > div > p:hover{
+	  text-decoration:underline;
+	
+}
+
+
+
+.footer-flex > div > h1 {	
+     color:orange;	
+}
+	
+
+.image-footer{
+	     height:70vh;
+	}
+	
+
+.img-scroll{
+	   display:flex;
+	   overflow-x:scroll;
+	   width:100vw;
+	   height:50vh;
+}
+
+.img-item{
+	   display:flex;
+	   justify-content:center;
+	   align-items:center;
+	   min-width:40vw;
+	   border:2px solid white;
+}
+
+.company-outro{
+	  color:purple;
+	  font-size:1rem;
+	  margin:15px 0px 30px 50px;
+	  font-weight:light;
+	  font-family: 'Roboto', sans-serif;
+}
+
+.card-1{
+	  background-image:url("https://www.pixelstalk.net/wp-content/uploads/2016/11/Education-Images-HD.jpg");
+	  background-position: center;
+	  background-repeat: no-repeat;
+	  background-size: cover;
+	  height:80vh;
+	  border-radius:40px;
+	  display:flex;
+	  justify-content:center;
+	  align-items:center;
+	  flex-direction:column;
+	  gap:20px;
+	  padding-right:500px;
+	  margin:50px;
+}
+
+
+.main-body>.card-1>div{
+	  width:500px;
+	  font-family: 'EB Garamond', serif;
+}
+
+
+
+#card-1a-children{
+	  font-weight:bold;
+	  font-size:3rem;
+	  color:purple;
+	
+}
+
+#card-1b-children{
+	  font-weight:bold;
+	  font-size:2rem;
+	  color:purple;
+}
+	
+#card-1c-children{
+	  font-weight:bold;
+}
+	
+
+
+#card-1e-children{
+	 
+	  color:purple;
+	  font-weight:bold;
+	  text-decoration:underline;
+	  padding:10px;
+	  border:none;
+}
+
+.blog-container{
+	 
+	  z-index:-1;
+	  height:1000px;
+	  position:relative;
+	  background-image:url("https://wallpapercave.com/wp/wp3376833.jpg");
+	  background-position: center;
+	  background-repeat: no-repeat;
+	  background-size: cover;
+	  
+	  
+}
+
+.blog-container-item1{
+	  
+	  height:500px;
+	  color:white;
+	  position:absolute;
+	  left:0;
+	  width:35%;
+	  margin-left:100px;
+	  display:flex;
+	  flex-direction:column;
+	  justify-content:center;
+	  align-items:center;
+	  gap:30px;
+	  overflow:hidden;	
+	  font-family: 'Roboto', sans-serif;
+}
+
+
+
+.blog-container-body-height{
+	  
+	  width:100vw;
+	  
+}
+
+
+.blog-container-item1>div>button{
+       padding:10px;
+	   background-color:purple;
+	   color:white;
+	   border-radius:40px;
+	   border:none;
+}
+
+.blog-container-item1>div>button:hover{
+	 background-color:brown;
+	 cursor:pointer;
+}
+
+.blog-body{
+	 height:100vh;
+}
+
+
+
+#myhome-body{
+	 height:200vh;
+	 width:vw;
+}
+
+
+.gif-background{ 
+	  background-image:url("https://cdn.dribbble.com/users/3980973/screenshots/11647722/media/57c9d6d5fddbf00eab105e3f05f19831.gif");
+	  background-position: center;
+	  background-repeat: no-repeat;
+	  background-size: cover;
+	  height:36vh;
+	  position:relative;
+	  z-index:-1;
+	  display:flex;
+	  flex-direction:column;
+	  align-items:center;
+	  justify-content:center;
+	  font-family: 'EB Garamond', serif;
+	  color:white;
+	  font-weight:bold;	 
+} 
+
+
+.sub-heading{
+	 font-size:50px;
+	
+}
+
+.Heading{
+	 font-size:40px;
+	 color:white;	
+}
+
+.arrow-type{
+	 border-top:2px solid purple;
+	 color:white;
+	 padding:10px;
+		
+}
+
+.our-programs-div{
+	
+	  display:flex;
+	  justify-content:space-around;
+	  height:100vh;
+	  margin:50px;
+	  font-family: 'Roboto', sans-serif;	
+	  
+}
+
+
+.our-programs-div>div{
+	
+	  display:flex;
+	  flex-direction:column;
+      gap:30px;
+	  width:45vw;
+	  padding:40px;
+}
+	
+	
+	
+.img-child{
+	
+	  background-image:url("https://ullens.edu.np/wp-content/themes/yootheme/cache/d4/alumni-2-d44d3db3.webp");
+	  background-repeat:no-repeat;
+	  background-position:center;
+	  background-size:cover;
+	  height:50%;
+	  width:100%;
+}
+	
+#view-button{
+	
+	 width:280px;
+	 color:purple;
+	 text-decoration:underline;
+	
+}
+
+#view-button:hover{
+	
+	 cursor:pointer;
+}
+
+
+.img-div1{
+	
+	  background-image:url("https://ullens.edu.np/wp-content/themes/yootheme/cache/ca/def-cacb3308.webp");
+	  background-repeat:no-repeat;
+	  background-position:center;
+	  background-size:cover;
+}
+
+#our-progrm{
+	
+	 font-size:80;
+}
+
+
+
+.homepage-notices{
+	 background-color:lightgrey;
+	 display:flex;
+	 flex-direction:column;
+	 gap:10px;
+	 margin:50px;
+	 font-family: 'EB Garamond', serif;
+	 border-radius:40px;
+	
+}
+
+.homepage-notices>div{
+	  display:flex;
+	  gap:50px;
+	  padding:20px;
+	  border-radius:40px;
+	
+}
+
+#view-all-notices:hover{
+	 cursor:pointer;
+	
+}
+
+button{
+	  border:none;
+	  padding:5px;
+}
+
+button:hover{
+	 cursor:pointer;
+}
+
+.recent-news{
+	  display:flex;
+	  margin:50px;
+	  height:40vh;
+	  justify-content:space-around;	
+}
+	
+.recent-news>div{
+	  display:flex;
+	  width:30%;
+      border-radius:40px;
+	  background-color:lightgrey;
+	  justify-content:center;
+	  align-items:center;
+	
+	
+}
+
+.recent-news>div:hover{
+	  width:31%;
+	  cursor:pointer;
+	  border: 2px solid black;
+}
+
+
+
+
+
+.recent-news>div>*{
+	  margin-top:40%;
+	  color:white;
+	  font-family: 'EB Garamond', serif;
+	  text-shadow: 2px 2px 2px black;
+	  width:90%;
+	  font-size:30px;
+}
+
+.image1-news{
+	  background-image:url("https://3.bp.blogspot.com/-KkMYHrsMoH0/Wk7lFkOrSPI/AAAAAAAABCk/P3x6DooELFc5cSPjxKmfc3E1HuPbSX9ZQCLcBGAs/s1600/9cf8c214-c632-48c9-b942-5bdf72ee162e.jpg");
+	  background-repeat:no-repeat;
+	  background-position:center;
+	  background-size:cover;
+}
+
+.image2-news{
+	  background-image:url("https://statics.sportskeeda.com/wp-content/uploads/2014/06/bnnnnn-1403202148.jpg");
+	  background-repeat:no-repeat;
+	  background-position:center;
+	  background-size:cover;
+}
+
+.image3-news{
+	  background-image:url("https://images.csmonitor.com/csmarchives/2011/05/0531-NEPAL-prime-minister-draft-constitution.jpg?alias=standard_900x600nc");
+	  background-repeat:no-repeat;
+	  background-position:center;
+	  background-size:cover;
+}
+	
+
+.scholorship-div{
+	 height:120vh;
+	 position:relative;
+}
+
+.scholorship-details-box{
+	  position:absolute;
+	  top:25vh;
+	  left:8vw;
+	  height:50vh;
+	  width:40vw;
+	
+}
+
+.scholorship-details-box>div:hover{
+	  text-decoration:underline;
+	  cursor:pointer;
+}
+
+.photoes-parent-div{
+	  position:absolute;
+	  background-color:purple;
+	  top:15vh;
+	  left:40vw;
+	  height:60vh;
+	  width:50vw;
+	  background-image:url("https://i.pinimg.com/originals/35/d3/7d/35d37d3f5230e1e1250f966b4eb5dfa4.jpg");
+	  background-repeat:no-repeat;
+	  background-position:center;
+	  background-size:cover;
+	  border-radius:40px;
+}     
+
+
+
+.scholorship-image1{
+	   position:absolute;
+	   left:50px;
+	   top:20px;
+	   background-color:black;
+	   height:60vh;
+	   width:50vw;
+	   border-radius:40px;
+	   background-image:url("https://cdni.iconscout.com/illustration/premium/thumb/indian-girl-student-holding-shiksha-written-board-2791019-2335022.png");
+	   background-repeat:no-repeat;
+	   background-position:center;
+	   background-size:cover;
+}
+
+.scholorship-image1:hover{
+	   cursor:pointer;
+	   top:50px;
+	   background-image:url("https://th.bing.com/th/id/R.bf2303ba7fea5f70aace9601bcc96570?rik=8cfhgY6DOkmMew&pid=ImgRaw&r=0");
+	   background-repeat:no-repeat;
+	   background-position:center;
+	   background-size:cover;
+}
+
+.scholorship-details-box{
+	   display:flex;
+	   flex-direction:column;
+	   padding:50px;
+	   align-items:left;
+	   align-content:center;
+	   gap:10px;
+	   font-family: 'EB Garamond', serif;
+	   border-radius:40px;
+}
+
+.scholorship-details-box>div>h1{
+	   color:purple;
+	   font-size:40px;
+	   width:75%;
+}
+
+
+
+
+.vacancy-div{
+	   height:100vh;
+	   color:white;
+	   position:relative;
+	
+}
+
+.vacancy-image{
+	   position:absolute;
+	   height:90vh;
+	   width:40vw;
+	   background-color:red;
+	   top:5%;
+	   left:10%;
+	   background-image:url("https://images.pexels.com/photos/3183172/pexels-photo-3183172.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
+	   background-repeat:no-repeat;
+	   background-position:center;
+	   background-size:cover;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+.vacancy-title{
+	   position:absolute;
+	   top:8%;
+	   left:40%;
+	   font-size:60px;
+	   font-family: 'Josefin Sans', sans-serif;
+	   color:purple;
+	   text-shadow:2px 2px white;
+}
+
+
+.details-flex{
+	   position:absolute;
+	   top:30%;
+	   left:60%;
+	   font-family: 'EB Garamond', serif;
+	   color:black;
+	   display:flex;
+	   flex-direction:column;
+	   gap:40px;
+}
+
+.details-flex>div{
+	
+	  width:80%;
+	  font-size:20px;
+}
